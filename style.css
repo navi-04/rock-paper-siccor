@@ -1,0 +1,33 @@
+ body {
+  background-color: rgba(0, 0, 0, 0.888);
+  color: white;
+  font-style: Arial;
+}
+.head-element {
+  font-weight: bold;
+  font-size: 40px;
+}
+.picture-image {
+  height: 50px;
+}
+.movement-button {
+  height: 120px;
+  width: 120px;
+  background-color: transparent;
+  border: 3px solid white;
+  margin: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.result-display {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.reset-button,.autoplay-button,.stopAutoplay-button {
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}

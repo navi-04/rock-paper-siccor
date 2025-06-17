@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>rps game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="head-element">Rock Paper Scissors</p>
+    <button
+      class="movement-button"
+      onclick="
+    resultGain('Rock');
+    updateScoreElement('Rock');
+    "
+    >
+      <img class="picture-image" src="rock-emoji.png" alt="rock" />
+    </button>
+    <button
+      class="movement-button"
+      onclick="
+    resultGain('Paper');
+    updateScoreElement('Paper');
+    "
+    >
+      <img class="picture-image" src="paper-emoji.png" alt="paper" />
+    </button>
+
+    <button
+      class="movement-button"
+      onclick="
+    resultGain('Scissors');
+    updateScoreElement('Scissors');
+    "
+    >
+      <img class="picture-image" src="scissors-emoji.png" alt="Scissors" />
+    </button>
+
+    <p class="js-result result-display"></p>
+    <p class="js-moves"></p>
+    <p class="js-score result-display"></p>
+
+    <button
+      class="reset-button"
+      onclick="
+  
+    reset_score();
+    updateScoreElement('reset');
+    "
+    >
+      Reset score
+    </button>
+
+    <button
+      class="autoplay-button"
+      onclick="
+    autoplay();
+    "
+    >
+      Auto play
+    </button>
+
+   <p class="stop-button"></p> 
+
+    <script src="script.js"></script>
+  </body>
+</html>
